@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  background: #1f9e30;
+  color: #fff;
+}
+
+*:focus {
+  outline: none;
+}
+.top-left { 
+  top: 0; 
+  left:-1%; 
+} 
+
+.top-center { 
+  top: 0; 
+  left: 37%; 
+  transform: translateX(-50%); 
+} 
+.top-right { 
+  top: 0; 
+  left: 50%; 
+} 
+
+.top-right-extreme{ 
+  top: 0; 
+  right:0; 
+} 
+
+
+.App {
+  max-width: 1200px;
+  padding: 0 0.25rem;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+ 
+}
+
+
+button {
+  cursor: pointer;
+
+}
+
+.BoardItem {
+ min-height: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+  color:black;
+  padding: 20px;
+  
+ 
+}
+
+.BoardItem textarea {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  color:black;
+  min-height: 60px;
+} 
+
+.addButton {
+  width: 275px;
+  background: #ccc;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #aaa;
+}
+
+.addButton:hover {
+  background: #ddd;
+  transition: 0.3s ease all;
+}
+
+.FunctionNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FunctionNav button {
+  background: transparent;
+  border: none;
+  line-height: 1;
+  padding: 0;
+  font-size: 1.2rem;
+  color: rgba(235, 58, 27, 0.6);
+}
+
+.FunctionNav button:hover {
+  color: rgb(16, 172, 68);
+  transition: 0.3s ease all;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+.wentWell {
+  background: rgb(223, 207, 177);
+  border: 4px solid rgb(9, 179, 179);
+  bottom: 400; 
+  left:-.5%; 
+  width: 273px;
+}
+
+.didNotGoWell{
+  background: rgb(223, 207, 177);
+  border: 4px solid rgb(189, 58, 138);
+  margin: 5px;
+  bottom: 400; 
+  left:-.5%; 
+  width: 273px;
+}
+.needToImprove{
+  background: rgb(223, 207, 177);
+  border: 4px solid rgb(247, 223, 14);
+  margin: 5px;
+  
+}
+.actionItems {
+  background: rgb(223, 207, 177);
+  border: 4px solid rgb(8, 55, 143);
+  margin: 5px;
+}
